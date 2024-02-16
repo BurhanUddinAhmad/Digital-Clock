@@ -1,0 +1,25 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.clock {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.clock div {
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    background: #f2f3f3;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.1);
+}
+h2, p {
+    color: #333;
+}
